@@ -1,0 +1,137 @@
+* {
+ 
+}
+
+body {
+    background-color: rgb(193, 218, 230);
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: navy;
+}
+
+.navbar a {
+    float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.menu {
+    display: inline;
+}
+
+#me {
+    width: 50%;
+    height: 50%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+  border: 5px solid;
+}
+
+#name {
+    text-align: center;
+}
+
+#surf {
+    max-height: 250px;
+    max-width: 300px;
+    width: 300px;
+    height: 250px;
+    border: 5px solid;
+    position: relative;
+    bottom: -45px;
+
+}
+
+#weather {
+    width: 250px;
+    height: 250px;
+    border: 5px solid;
+    position: relative;
+    bottom: 5px;
+}
+
+#radar {
+    width: 400px;
+    height: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid;
+}
+
+#about {
+    text-align: center;
+}
+#about-me {
+    text-align: center;
+}
+
+#work {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    position: relative;
+    left: 100px;
+}
+
+
+
+.column {
+    flex: 33.33%;
+    padding: 5px;
+}
+
+
+
+  #flight-radar {
+      text-align: center;
+      font-size: 25px;
+  }
+
+  #surf-report {
+      position: relative;
+      left: 100px;
+      bottom: -20px;
+      font-size: 25px;
+  }
+
+  #weather-lable {
+    position: relative;
+    left: 100px;
+    font-size: 25px;
+  }
+
+ .contact {
+    overflow: hidden;
+    background-color: navy;
+ }
+
+  .contact a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    position: relative;
+    left: 500px;
+  }
+
+  #contact-me {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size:30px;
+    position: relative;
+  }
